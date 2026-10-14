@@ -1,0 +1,123 @@
+[
+  {
+    "contractId": "spotify-tr-2026",
+    "sourceName": "Spotify",
+    "groundTruthFindings": [
+      {
+        "id": "gt-sp-1",
+        "category": "auto_renewal_cancellation",
+        "severity": "high",
+        "expectedQuote": "Spotify Ücretli Abonelik Hizmeti, siz iptal edene kadar her fatura döneminde otomatik olarak yenilenir.",
+        "rationaleTr": "Kullanıcı aksini talep etmedikçe ücretli abonelik sürekli yenilenmektedir."
+      },
+      {
+        "id": "gt-sp-2",
+        "category": "fee_changes_extra_costs",
+        "severity": "high",
+        "expectedQuote": "Ücretler önceden haber verilmeksizin veya tarafınıza makul bir süre önce e-posta yoluyla bildirilecek şekilde Spotify tarafından tek taraflı olarak değiştirilebilir.",
+        "rationaleTr": "Abonelik ücretlerinin tek taraflı artırılabilmesi riski."
+      },
+      {
+        "id": "gt-sp-3",
+        "category": "account_suspension_termination",
+        "severity": "high",
+        "expectedQuote": "Spotify, hizmeti herhangi bir zamanda, herhangi bir nedenle ve önceden bildirimde bulunmaksızın derhal askıya alma veya sonlandırma hakkını saklı tutar.",
+        "rationaleTr": "Sebep göstermeksizin ve anında hesap kapatma yetkisi."
+      }
+    ]
+  },
+  {
+    "contractId": "discord-tr-2026",
+    "sourceName": "Discord",
+    "groundTruthFindings": [
+      {
+        "id": "gt-dc-1",
+        "category": "content_licensing_ip",
+        "severity": "high",
+        "expectedQuote": "Discord'a bu içeriği dünya çapında, telifsiz, geri alınamaz, alt lisanslanabilir ve süresiz olarak kullanma, kopyalama, değiştirme, uyarlama, dağıtma ve sergileme hakkı ve lisansı vermiş olursunuz.",
+        "rationaleTr": "Kullanıcı içeriği üzerinde geniş kapsamlı, süresiz ve telifsiz lisans devri."
+      },
+      {
+        "id": "gt-dc-2",
+        "category": "dispute_resolution_jurisdiction",
+        "severity": "medium",
+        "expectedQuote": "İşbu sözleşmeden doğan tüm uyuşmazlıklar bağlayıcı tahkim yoluyla çözülecektir; toplu dava veya temsilci davalarından peşinen feragat etmektesiniz.",
+        "rationaleTr": "Mahkemeye başvurma ve toplu dava açma hakkının engellenmesi."
+      },
+      {
+        "id": "gt-dc-3",
+        "category": "account_suspension_termination",
+        "severity": "high",
+        "expectedQuote": "Discord, hiçbir gerekçe göstermeksizin hesabınızı dilediği an kapatabilir.",
+        "rationaleTr": "Keyfi ve bildirimsiz hesap feshi."
+      }
+    ]
+  },
+  {
+    "contractId": "notion-tr-2026",
+    "sourceName": "Notion",
+    "groundTruthFindings": [
+      {
+        "id": "gt-no-1",
+        "category": "liability_limitation",
+        "severity": "medium",
+        "expectedQuote": "Şirketimiz, hizmet kesintilerinden, veri bozulmalarından veya kâr kayıplarından ötürü doğrudan ya da dolaylı hiçbir zarardan sorumlu tutulamaz",
+        "rationaleTr": "Veri kaybı ve kesintilerde şirketin tam sorumluluk muafiyeti istemesi."
+      },
+      {
+        "id": "gt-no-2",
+        "category": "third_party_transfer",
+        "severity": "medium",
+        "expectedQuote": "Kişisel ve çalışma alanı verileriniz, hizmetin sağlanması amacıyla Amerika Birleşik Devletleri dahil üçüncü ülkelerdeki alt işleyicilere aktarılabilir.",
+        "rationaleTr": "Verilerin denetimsiz biçimde yurt dışındaki alt işleyicilere aktarılması."
+      }
+    ]
+  },
+  {
+    "contractId": "trendyol-tr-2026",
+    "sourceName": "Trendyol",
+    "groundTruthFindings": [
+      {
+        "id": "gt-ty-1",
+        "category": "unilateral_change",
+        "severity": "high",
+        "expectedQuote": "Trendyol, işbu sözleşmenin maddelerini, platform üzerinden sunulan hizmetleri ve koşulları önceden bildirimde bulunmaksızın dilediği zaman tek taraflı olarak güncelleme veya değiştirme hakkını saklı tutar.",
+        "rationaleTr": "Sözleşme koşullarının önceden bildirim olmaksızın tek taraflı değiştirilmesi."
+      },
+      {
+        "id": "gt-ty-2",
+        "category": "account_suspension_termination",
+        "severity": "high",
+        "expectedQuote": "Trendyol, şüpheli işlem veya güvenlik gerekçesiyle kullanıcının hesabını askıya alabilir veya tek taraflı olarak üyeliği feshedebilir.",
+        "rationaleTr": "Tek taraflı üyelik askıya alma ve fesih yetkisi."
+      }
+    ]
+  },
+  {
+    "contractId": "getir-tr-2026",
+    "sourceName": "Getir",
+    "groundTruthFindings": [
+      {
+        "id": "gt-gt-1",
+        "category": "fee_changes_extra_costs",
+        "severity": "high",
+        "expectedQuote": "Uygulamada yer alan ürün fiyatları, teslimat ücretleri ve kampanya koşulları Getir tarafından tek taraflı olarak anlık olarak değiştirilebilir.",
+        "rationaleTr": "Fiyat ve teslimat masraflarının anlık ve tek taraflı artırılabilmesi."
+      },
+      {
+        "id": "gt-gt-2",
+        "category": "liability_limitation",
+        "severity": "medium",
+        "expectedQuote": "Getir, siparişin teslim edilememesinden, gecikmelerden veya üçüncü taraf kuryelerin eylemlerinden kaynaklanabilecek dolaylı zararlardan ötürü hiçbir hukuki ve cezai sorumluluk kabul etmez.",
+        "rationaleTr": "Kurye gecikmeleri ve teslimat zararlarında tam sorumluluk reddi."
+      },
+      {
+        "id": "gt-gt-3",
+        "category": "dispute_resolution_jurisdiction",
+        "severity": "low",
+        "expectedQuote": "İşbu sözleşmeden kaynaklanabilecek her türlü uyuşmazlıkta İstanbul Merkez (Çağlayan) Mahkemeleri ve İcra Daireleri münhasıran yetkilidir.",
+        "rationaleTr": "Tüketicinin ikametgahı dışındaki yetkili mahkeme belirlemesi."
+      }
+    ]
+  }
+]

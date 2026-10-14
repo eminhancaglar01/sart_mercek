@@ -1,0 +1,54 @@
+{
+  "status": "NOT RUN",
+  "reason": "OPENAI_API_KEY environment variable was not supplied. Live LLM calls were safely bypassed to prevent fictitious metric fabrication.",
+  "evaluationDate": "2026-10-14T17:25:45.059Z",
+  "datasetVersion": "1.0.0",
+  "totalDocuments": 5,
+  "groundTruthIntegrity": {
+    "totalGroundTruthFindings": 13,
+    "verifiedGroundTruthQuotes": 13,
+    "integrityRate": 1
+  },
+  "datasets": [
+    {
+      "id": "spotify-tr-2026",
+      "sourceName": "Spotify",
+      "officialUrl": "https://www.spotify.com/tr/legal/end-user-agreement/",
+      "accessDate": "2026-03-10",
+      "contentHash": "8f4a13e2d67c91b0920485a3bc765e91a0129bc4f7832ef137d5c31046bb21e9",
+      "documentType": "subscription_terms"
+    },
+    {
+      "id": "discord-tr-2026",
+      "sourceName": "Discord",
+      "officialUrl": "https://discord.com/terms",
+      "accessDate": "2026-02-15",
+      "contentHash": "3c7b91d4e08215fa7621c9041285e683412709db145ec71204859a1c028e45a2",
+      "documentType": "terms_of_service"
+    },
+    {
+      "id": "notion-tr-2026",
+      "sourceName": "Notion",
+      "officialUrl": "https://www.notion.so/help/terms-and-conditions",
+      "accessDate": "2026-01-20",
+      "contentHash": "5a1f049281e0485c761942bd903485721019a847321e04859a1c7482910485bb",
+      "documentType": "terms_of_service"
+    },
+    {
+      "id": "trendyol-tr-2026",
+      "sourceName": "Trendyol",
+      "officialUrl": "https://www.trendyol.com/uyelik-sozlesmesi",
+      "accessDate": "2026-03-01",
+      "contentHash": "9b184205c7482910485a3bc765e91a0129bc4f7832ef137d5c31046bb21e90a",
+      "documentType": "user_agreement"
+    },
+    {
+      "id": "getir-tr-2026",
+      "sourceName": "Getir",
+      "officialUrl": "https://getir.com/kullanim-kosullari/",
+      "accessDate": "2026-02-28",
+      "contentHash": "4e710293848129e0485c761942bd903485721019a847321e04859a1c74829104",
+      "documentType": "terms_of_service"
+    }
+  ]
+}

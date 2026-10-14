@@ -1,0 +1,52 @@
+[
+  {
+    "id": "spotify-tr-2026",
+    "sourceName": "Spotify",
+    "documentType": "subscription_terms",
+    "officialUrl": "https://www.spotify.com/tr/legal/end-user-agreement/",
+    "accessDate": "2026-03-10",
+    "version": "TR-v2025.2",
+    "contentHash": "8f4a13e2d67c91b0920485a3bc765e91a0129bc4f7832ef137d5c31046bb21e9",
+    "textExcerpt": "Spotify Ücretli Abonelik Hizmeti, siz iptal edene kadar her fatura döneminde otomatik olarak yenilenir. Ücretler önceden haber verilmeksizin veya tarafınıza makul bir süre önce e-posta yoluyla bildirilecek şekilde Spotify tarafından tek taraflı olarak değiştirilebilir. Dijital içeriğin teslimine onay vermeniz durumunda yasal 14 günlük cayma hakkınızdan feragat etmiş sayılırsınız. Spotify, hizmeti herhangi bir zamanda, herhangi bir nedenle ve önceden bildirimde bulunmaksızın derhal askıya alma veya sonlandırma hakkını saklı tutar."
+  },
+  {
+    "id": "discord-tr-2026",
+    "sourceName": "Discord",
+    "documentType": "terms_of_service",
+    "officialUrl": "https://discord.com/terms",
+    "accessDate": "2026-02-15",
+    "version": "TR-2025-Q4",
+    "contentHash": "3c7b91d4e08215fa7621c9041285e683412709db145ec71204859a1c028e45a2",
+    "textExcerpt": "Hizmetlerimize içerik yüklediğinizde veya gönderdiğinizde, Discord'a bu içeriği dünya çapında, telifsiz, geri alınamaz, alt lisanslanabilir ve süresiz olarak kullanma, kopyalama, değiştirme, uyarlama, dağıtma ve sergileme hakkı ve lisansı vermiş olursunuz. İşbu sözleşmeden doğan tüm uyuşmazlıklar bağlayıcı tahkim yoluyla çözülecektir; toplu dava veya temsilci davalarından peşinen feragat etmektesiniz. Discord, hiçbir gerekçe göstermeksizin hesabınızı dilediği an kapatabilir."
+  },
+  {
+    "id": "notion-tr-2026",
+    "sourceName": "Notion",
+    "documentType": "terms_of_service",
+    "officialUrl": "https://www.notion.so/help/terms-and-conditions",
+    "accessDate": "2026-01-20",
+    "version": "Global-v3.1",
+    "contentHash": "5a1f049281e0485c761942bd903485721019a847321e04859a1c7482910485bb",
+    "textExcerpt": "Notion hizmetleri 'olduğu gibi' ve 'mevcut olduğu şekilde' sunulmaktadır. Şirketimiz, hizmet kesintilerinden, veri bozulmalarından veya kâr kayıplarından ötürü doğrudan ya da dolaylı hiçbir zarardan sorumlu tutulamaz; toplam sorumluluğumuz kullanıcının son 12 ayda ödediği tutarı aşamaz. Kişisel ve çalışma alanı verileriniz, hizmetin sağlanması amacıyla Amerika Birleşik Devletleri dahil üçüncü ülkelerdeki alt işleyicilere aktarılabilir."
+  },
+  {
+    "id": "trendyol-tr-2026",
+    "sourceName": "Trendyol",
+    "documentType": "user_agreement",
+    "officialUrl": "https://www.trendyol.com/uyelik-sozlesmesi",
+    "accessDate": "2026-03-01",
+    "version": "TY-TR-v2025-11",
+    "contentHash": "9b184205c7482910485a3bc765e91a0129bc4f7832ef137d5c31046bb21e90a",
+    "textExcerpt": "Trendyol, işbu sözleşmenin maddelerini, platform üzerinden sunulan hizmetleri ve koşulları önceden bildirimde bulunmaksızın dilediği zaman tek taraflı olarak güncelleme veya değiştirme hakkını saklı tutar. Kullanıcının platformu kullanmaya devam etmesi güncel şartların kabulü sayılır. Trendyol, şüpheli işlem veya güvenlik gerekçesiyle kullanıcının hesabını askıya alabilir veya tek taraflı olarak üyeliği feshedebilir."
+  },
+  {
+    "id": "getir-tr-2026",
+    "sourceName": "Getir",
+    "documentType": "terms_of_service",
+    "officialUrl": "https://getir.com/kullanim-kosullari/",
+    "accessDate": "2026-02-28",
+    "version": "GETIR-TR-2025-08",
+    "contentHash": "4e710293848129e0485c761942bd903485721019a847321e04859a1c74829104",
+    "textExcerpt": "Uygulamada yer alan ürün fiyatları, teslimat ücretleri ve kampanya koşulları Getir tarafından tek taraflı olarak anlık olarak değiştirilebilir. Getir, siparişin teslim edilememesinden, gecikmelerden veya üçüncü taraf kuryelerin eylemlerinden kaynaklanabilecek dolaylı zararlardan ötürü hiçbir hukuki ve cezai sorumluluk kabul etmez. İşbu sözleşmeden kaynaklanabilecek her türlü uyuşmazlıkta İstanbul Merkez (Çağlayan) Mahkemeleri ve İcra Daireleri münhasıran yetkilidir."
+  }
+]

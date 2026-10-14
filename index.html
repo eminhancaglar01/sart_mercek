@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ŞartMercek — E2E Test & Demo Ortamı</title>
+    <link rel="stylesheet" href="./src/entrypoints/popup/App.css" />
+    <style>
+      body {
+        margin: 0;
+        padding: 20px;
+        background-color: #0b1120;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        color: #f8fafc;
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+        width: 100%;
+        max-height: none;
+      }
+      .test-panel {
+        width: 500px;
+        background: #1e293b;
+        border: 1px solid #334155;
+        border-radius: 10px;
+        padding: 16px;
+      }
+      .scenario-buttons {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+      }
+      .scenario-btn {
+        background: #334155;
+        border: 1px solid #475569;
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 600;
+      }
+      .scenario-btn.active {
+        background: #2563eb;
+        border-color: #3b82f6;
+      }
+      .contract-viewer {
+        background: #0f172a;
+        border: 1px solid #334155;
+        border-radius: 6px;
+        padding: 14px;
+        font-size: 12px;
+        line-height: 1.6;
+        max-height: 480px;
+        overflow-y: auto;
+      }
+      .contract-viewer h3 {
+        color: #60a5fa;
+        margin-bottom: 8px;
+      }
+      .extension-popup-frame {
+        width: 440px;
+        border: 2px solid #3b82f6;
+        border-radius: 12px;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        background: #0f172a;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Left: Simulated Browser Webpage with Contract text -->
+    <div class="test-panel">
+      <div class="scenario-buttons">
+        <button id="scenario-happy-path" class="scenario-btn active">
+          🌟 Senaryo 1: Mutlu Yol (Spotify Sözleşmesi)
+        </button>
+        <button id="scenario-uncertainty" class="scenario-btn">
+          ⚠️ Senaryo 2: Dürüst Belirsizlik Anı
+        </button>
+      </div>
+
+      <div class="contract-viewer" id="simulated-webpage">
+        <!-- Injected dynamically -->
+      </div>
+    </div>
+
+    <!-- Right: Real Extension Popup Component Frame -->
+    <div class="extension-popup-frame" id="popup-root">
+      <!-- App mounts here -->
+    </div>
+
+    <script type="module" src="./src/demo-entry.tsx"></script>
+  </body>
+</html>
