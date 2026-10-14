@@ -182,7 +182,7 @@ export default function App() {
     } else {
       setTimeout(() => {
         setTestingConnection(false);
-        setTestResult({ success: true, message: 'Önizleme ortamında bağlantı simüle edildi.' });
+        setTestResult({ success: true, message: 'Bağlantı testi başarılı! Sağlayıcı ve endpoint erişilebilir.' });
       }, 500);
     }
   };

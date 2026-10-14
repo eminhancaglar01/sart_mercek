@@ -1,7 +1,7 @@
 # ŞartMercek — Mini Eval Raporu
 
 **Durum:** `NOT RUN`  
-**Tarih:** 2026-10-14T17:25:45.060Z  
+**Tarih:** 2026-10-14T17:41:30.870Z  
 **Veri Kümesi:** 5 Gerçek Resmî Türkçe Sözleşme / Gizlilik Politikası  
 
 > [!NOTE]  
